@@ -1,0 +1,89 @@
+
+.plateau{
+    width:583px;
+    display:grid;
+    border: 1px solid black;
+    text-align:center;
+    margin-left:100px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.plateau div{
+    border: 1px solid black;
+    height:165px;
+    width:193px;
+    margin:-4px;
+}
+.un{
+    background-image: url("1.tiff");
+    background-size: 193px;
+}
+.deux{
+    background-image: url("2.tiff");
+    background-size: 193px;
+}
+.trois{
+    background-image: url("3.tiff");
+    background-size: 193px;
+}
+.quatre{
+    background-image: url("4.tiff");
+    background-size: 193px;
+}
+.cinq{
+    background-image: url("5.tiff");
+    background-size: 193px;
+}
+.six{
+    background-image: url("6.tiff");
+    background-size: 193px;
+}
+.sept{
+    background-image: url("7.tiff");
+    background-size: 193px;
+}
+.huit{
+    background-image: url("8.tiff");
+    background-size: 193px;
+}
+.current{
+    background-color: white;
+}
+  #un {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #deux { 
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #trois {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  #quatre {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #cinq {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  #sept {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #huit {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  #neuf {
+    grid-column: 3;
+    grid-row: 3;
+  }
